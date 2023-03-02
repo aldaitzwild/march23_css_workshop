@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav {
+    background-color: #f76c6c;
+    padding-left: 5px;
+}
+
+
+nav h1, nav li {
+    color: white;
+}
+
+nav li {
+    display: inline;
+}
+
+nav ul {
+    padding: 0;
+}
+
+
+header {
+    min-height: 250px;
+    background-image: url('https://loremflickr.com/cache/resized/65535_52670594870_cee294899c_h_1200_300_nofilter.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h1 {
+    text-align: center;
+
+}
+
+main {
+    margin: auto;
+    width: 70%;
+}
+
+article {
+    border: 1px black solid;
+    border-radius: 12px;
+    padding: 15px;
+    font-size: 30pt;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 20px 10px 20px;
+    width: 40%;
+}
